@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    background: #599fff;
+    float: left;
+}
+
+.left {
+    width: 100px;
+    background: #00ff76;
+    float: left;
+    margin-left: -100%;
+    position: relative;
+    left: -100px;
+}
+
+.right {
+    width: 100px;
+    background: #ff9326;
+    float: left;
+    margin-left: -100px;
+    position: relative;
+    right: -100px;
+}
+
+.container {
+    padding: 0 100px;
+}
